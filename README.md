@@ -9,7 +9,7 @@ We have a hotel bookings dataset.
 Our main objective is to perform EDA on the given dataset and draw useful conclusions about general trends in hotel bookings and draw some useful conclusions.
 
 ## Dataset
-We have a hotel bookings dataset. This dataset contains booking information for a City hotel and a Resort hotel. It contains 32 Rows. The imformation in the rows is as follows.
+We have a hotel bookings dataset. This dataset contains booking information for a City hotel and a Resort hotel. It contains 32 Rows. The information in the rows is as follows.
 
 ```
 - hotel: Name of hotel ( City or Resort)
@@ -55,7 +55,7 @@ Creating the copy of original dataset and performing operations on it.
 
 
 ### (1) Handling null values
-- Droping the column 'company' from dataset as it had 112593 Null values and was of no use.
+- Dropping the column 'company' from dataset as it had 112593 Null values and was of no use.
 - Null values in column `country` were replaced by 'other countries'.
 - Null values in column `children` were replaced by 0.
 - Null values in the column 'agent' were replaced by 0.
@@ -180,20 +180,20 @@ City Hotels are prefered more for casual stays and Resort Hotels are prefered mo
  
  Q1) Which year witnessed the highest number of guests?
  - 2016 witnessed maximum number of guests followed by the year 2017.
- - Altough the year 2015 witnessed the minimum number of guests, in the year 2015 Resort hotel type booking is more than City hotel.
+ - Although the year 2015 witnessed the minimum number of guests, in the year 2015 Resort hotel type booking is more than City hotel.
 
  Q2) Which time of the year is best to stay in hotel?
  - Instead of the month of DECEMBER the total number of guests in every month are more than 10k. But from the graph there is a very clear visible spike is in the month of JULY and AUGUST, so we can conclude that the best time of the year to book a hotel is in JULY and AUGUST.
  - The data in the dataset is of European Hotels, as during the month of JULY and AUGUST it is summers in Europe and the weather, natural sceneries and landscapes are breathtaking therefore the tourism industries boom during this period of time thus there is a clear visible spike in total number of guests during this period.
  - In the months of November, December, January and February there is extreme winters in Europe, therefore there is a clear visible decline in total guests during this period of time.
- - Even after analyzing the data of CITY and RESORT hotel saperately the fact that the "Best time to book an hotel is month of JULY and AUGUST" remains the same.
+ - Even after analyzing the data of CITY and RESORT hotel seperately the fact that the "Best time to book an hotel is month of JULY and AUGUST" remains the same.
  - Throughout the year the people prefer CITY hotels more than the RESORT hotel.
  
  Q3)  In which month of the year Revenue is the highest?
  - In the month of August the revenue of hotels is maximum followed by the month of July.
  - The above analysis further supported our assumption that the data in the dataset is of european hotels. And as the month of June, July, August, September witness summers in the Europe, the number of bookings are more and Hotels make most profit during these months only. So we can also assume that hotels increase prices of the room during these months. And as the month of November, December, January, February witness Winters in europe The number of booking are low thus hotels reduce the prices of room during these months and their revenue also reduce.
  
- Q4) Is there any change in Monthwise revenue when we analyze data saperately for Resort and City hotels?
+ Q4) Is there any change in Month wise revenue when we analyze data seperately for Resort and City hotels?
  - During the peak months (June to September) the Resort hotel's earning of revenue is way more than City hotels( which earn more or less same throughout the year), which further proves our assumption that City hotels are booked more for Casual stays thus their price increase very less during summers, while Resort hotels are booked more for Close intimate events which happen during peak of tourism season, so the Resort hotel owner earn more during this period of time.
  
  Q5) What is the trend of bookings within a month?
@@ -201,8 +201,8 @@ City Hotels are prefered more for casual stays and Resort Hotels are prefered mo
   - The hotel booking trend of singles is opposite to the booking trend of couples and families. The number of bookings of singles reduces during the peak of the tourism season which is strange, one of the reason may be, they are travelling in a group.
  
  Q6) What is the optimal length of stay in order to get the best daily rate?
- - Hotel's Point of view: The optimal lenght of stay to get the best daily rate is less than or equal to 2 weeks, because it is the most frequently booked lenght of stay by the customer
- - Customer's point of view: The optimal lenght of stay to get the best daily rate is more than 2 weeks.
+ - Hotel's Point of view: The optimal length of stay to get the best daily rate is less than or equal to 2 weeks, because it is the most frequently booked length of stay by the customer
+ - Customer's point of view: The optimal length of stay to get the best daily rate is more than 2 weeks.
  
  ### 7 - What are the chances of whether or not a hotel was likely to receive a disproportionately high number of special requests?
  
