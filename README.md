@@ -9,7 +9,7 @@ We have a hotel bookings dataset.
 Our main objective is to perform EDA on the given dataset and draw useful conclusions about general trends in hotel bookings and draw some useful conclusions.
 
 ## Dataset
-We have a hotel bookings dataset. This dataset contains booking information for a City hotel and a Resort hotel. It contains 32 Rows. The information in the rows is as follows.
+We have a hotel bookings dataset. This dataset contains booking information for a City hotel and a Resort hotel. It contains 32 Columns. The information in the rows is as follows.
 
 ```
 - hotel: Name of hotel ( City or Resort)
