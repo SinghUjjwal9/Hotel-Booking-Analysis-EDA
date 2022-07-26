@@ -3,6 +3,9 @@
 ## Objective
 We have a hotel bookings dataset. 
 
+**Programming Language** : Python
+**NoteBook** : Google Colab
+
 Our main objective is to perform EDA on the given dataset and draw useful conclusions about general trends in hotel bookings and draw some useful conclusions.
 
 ## Dataset
